@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import React, { Suspense } from 'react'
 
-export const ppr = true
+
 
 const UserDetailsPage = async({params}:{params : Promise<{id : string}>}) => {
     const id = (await params).id
